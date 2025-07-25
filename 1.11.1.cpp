@@ -6,8 +6,11 @@ int main()
     std::cout << "Enter an integer: ";
     int x{ };
     std::cin >> x;
-    int y{ };
-    int multiplier{ 2 };
-    y = multiplier * x;
-    std::cout <<"Double that number is: " << y << std::endl;
+    std::cout <<"Double " << x << " is: "
+              << x*2
+              << '\n'
+              <<"Triple " << x << " is: "
+              << x * 3
+              << '\n'
+      ;
   }
