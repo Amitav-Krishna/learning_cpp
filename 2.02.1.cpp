@@ -15,7 +15,7 @@ void doubleNumber (int num)
 
 int main()
   {
-    int x = getValueFromUser();
+    int x {getValueFromUser()};
     doubleNumber(x);
     return 0;
   }
